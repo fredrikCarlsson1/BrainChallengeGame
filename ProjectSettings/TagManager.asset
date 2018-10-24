@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ExitLetterLayer
+  - GroundCollider
+  - CollectedLetterOrNumberLayer
+  - NumberBoxLayer
+  - LetterBoxLayer
+  - LeftSide
+  - RightSide
+  - ExitNumberLayer
+  - Snowflake
   layers:
   - Default
   - TransparentFX
@@ -13,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Snowflake
+  - LetterBoxes
   - 
   - 
   - 
@@ -40,4 +49,58 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 1607450485
+    locked: 0
+  - name: BackgroundSnow
+    uniqueID: 1871730079
+    locked: 0
+  - name: Sides
+    uniqueID: 1400869777
+    locked: 0
+  - name: Pressable Snowflake
+    uniqueID: 3929273659
+    locked: 0
+  - name: SnowflakeContent
+    uniqueID: 3128775481
+    locked: 0
+  - name: Clouds
+    uniqueID: 3382859903
+    locked: 0
+  - name: TopBar
+    uniqueID: 1247918361
+    locked: 0
+  - name: LetterBoxes
+    uniqueID: 3606881611
+    locked: 0
+  - name: NumberBox
+    uniqueID: 1730407899
+    locked: 0
+  - name: Ground
+    uniqueID: 1181626353
+    locked: 0
+  - name: Santa
+    uniqueID: 3409526149
+    locked: 0
+  - name: CollectedSnowflakes
+    uniqueID: 904879861
+    locked: 0
+  - name: CollectedSnowflakeContent
+    uniqueID: 18784047
+    locked: 0
+  - name: Menu
+    uniqueID: 1653322573
+    locked: 0
+  - name: MenuContent
+    uniqueID: 944476045
+    locked: 0
+  - name: TopMenuContent
+    uniqueID: 1919806131
+    locked: 0
+  - name: TopMenuTextContent
+    uniqueID: 466871425
+    locked: 0
+  - name: FadeLayer
+    uniqueID: 2419216677
     locked: 0
